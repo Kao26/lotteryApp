@@ -102,7 +102,7 @@ class LotteryViewController: UIViewController {
         overView.isHidden = true
         lotteryButton.isHidden = false
         tabBarController?.tabBar.isUserInteractionEnabled = true
-        resultLabel.text = "○○○"
+        resultLabel.text = "抽選会"
     }
     
     

@@ -40,6 +40,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     
 //追加ボタンを押した時の処理
+    @IBOutlet weak var AddButton: UIButton!
     @IBAction func AddButton(_ sender: Any) {
         
         let alert = UIAlertController(title: "追加", message: "参加者の情報を入力してください", preferredStyle: .alert)
@@ -108,6 +109,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
 //全てを削除ボタンを押した時の処理
+    @IBOutlet weak var deleteButton: UIButton!
     @IBAction func deleteButton(_ sender: Any) {
         //アラート準備
         let alert = UIAlertController(title: "削除", message: "全て削除してもよろしいですか？", preferredStyle: .alert)
